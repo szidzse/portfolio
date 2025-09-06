@@ -1,4 +1,6 @@
 import Link from "next/link";
+import ChatToggle from "@/components/ChatToggle";
+import ThemeDropdown from "@/components/ThemeDropdown";
 
 const navLinks = [
   {
@@ -31,6 +33,10 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
+          <div className="flex gap-2 sm:gap-4">
+            <ChatToggle />
+            <ThemeDropdown />
+          </div>
         </nav>
       </div>
     </header>
