@@ -3,6 +3,7 @@ import { ArrowDown, ArrowDownRight, FileDown } from "lucide-react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import Socials from "@/components/Socials";
+import Experience from "@/components/Experience";
 
 const BIRTH_YEAR = 2000;
 
@@ -45,6 +46,8 @@ const Home = () => {
           </section>
         </div>
       </section>
+
+      <Experience />
     </article>
   );
 };
