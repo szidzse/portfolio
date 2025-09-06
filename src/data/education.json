@@ -1,0 +1,30 @@
+{
+  "education": [
+    {
+      "name": "Codecool",
+      "href": "https://codecool.com/en/",
+      "title": "Enterprise Full-Stack Developer Bootcamp",
+      "logo": "/images/codecool.png",
+      "start": "Sep 2023",
+      "end": "Jul 2025",
+      "description": [
+        "Experienced with React, TypeScript, and Express for building modern full-stack applications",
+        "Solid understanding of Java and the Spring framework with object-oriented programming principles",
+        "Hands-on experience with relational and non-relational databases, including PostgreSQL and MongoDB",
+        "Skilled in containerization and infrastructure management using Docker, Kubernetes, Terraform, and AWS"
+      ],
+      "links": [
+        {
+          "name": "project 1",
+          "href": "https://project1.com",
+          "icon": "globe"
+        },
+        {
+          "name": "project 2",
+          "href": "https://project2.com",
+          "icon": "globe"
+        }
+      ]
+    }
+  ]
+}
