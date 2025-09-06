@@ -1,0 +1,18 @@
+{
+  "projects": [
+    {
+      "name": "Homy Rental Platform",
+      "description": "A real estate finder application for tenants and managers",
+      "href": "https://github.com/szidzse/homy-rental-platform",
+      "image": "/images",
+      "tags": ["Typescript", "Next.js", "Tailwind", "shadcn/ui", "Express", "PostgreSQL", "PostGIS", "MapBox"],
+      "links": [
+        {
+          "name": "project 1",
+          "href": "https://github.com/szidzse/homy-rental-platform",
+          "icon": "youtube"
+        }
+      ]
+    }
+  ]
+}
