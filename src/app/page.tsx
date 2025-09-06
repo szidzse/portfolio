@@ -18,7 +18,7 @@ const LIMIT = 2;
 const Home = () => {
   return (
     <article className="mt-8 flex flex-col gap-16 pb-16">
-      <section className="flex flex-col items-start gap-8 md:flex-row-reverse md:items-center md:justify-between">
+      <section className="flex flex-col items-start gap-8 md:flex-row md:items-center md:justify-between">
         {/* TODO: create a carousel component for images */}
         <div className="flex max-w-[320px] flex-col sm:max-w-full">
           <h1 className="title text-balance text-4xl sm:text-5xl">
