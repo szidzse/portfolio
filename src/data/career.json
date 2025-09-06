@@ -1,0 +1,16 @@
+{
+  "career": [
+    {
+      "name": "Code Factory Hungary",
+      "href": "https://codefactory.hu",
+      "title": "DevOps Engineer (Intern)",
+      "logo": "/images/codefactory.png",
+      "start": "July 2025",
+      "description": [
+        "Created CI/CD pipelines with GitHub Actions and GitLab CI/CD.",
+        "Managed Kubernetes clusters and created Helm charts.",
+        "Created AWS infrastructures with Terraform (and Terragrunt) IaC tools."
+      ]
+    }
+  ]
+}
