@@ -1,4 +1,8 @@
 import React from "react";
+import { ArrowDown, ArrowDownRight, FileDown } from "lucide-react";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import Socials from "@/components/Socials";
 
 const BIRTH_YEAR = 2000;
 
@@ -6,7 +10,7 @@ const Home = () => {
   return (
     <article className="mt-8 flex flex-col gap-16 pb-16">
       <section className="flex flex-col items-start gap-8 md:flex-row-reverse md:items-center md:justify-between">
-        // TODO: create a carousel component for images
+        {/* TODO: create a carousel component for images */}
         <div className="flex max-w-[320px] flex-col sm:max-w-full">
           <h1 className="title text-balance text-4xl sm:text-5xl">
             hi Gellért here 👋🏻
@@ -21,6 +25,24 @@ const Home = () => {
             DevOps is not a goal, but a never-ending process of continual
             improvement.
           </p>
+
+          <div className="mt-6 flex items-center gap-1">
+            <p className="text-balance text-sm font-semibold sm:text-base">
+              For Q&A, start a chat with Gellért Bot
+            </p>
+            <ArrowDownRight className="hidden size-5 animate-bounce sm:block" />
+            <ArrowDown className="block size-5 animate-bounce sm:hidden" />
+          </div>
+
+          <section className="mt-6 flex flex-wrap items-center gap-4">
+            <Link href="/resume.pdf" target="_blank">
+              <Button variant="outline">
+                <span className="font-semibold">Resume</span>
+                <FileDown className="ml-2 size-5" />
+              </Button>
+            </Link>
+            <Socials />
+          </section>
         </div>
       </section>
     </article>

@@ -1,0 +1,19 @@
+{
+  "socials": [
+    {
+      "name": "LinkedIn",
+      "href": "https://www.linkedin.com/in/gellertsos/",
+      "icon": "linkedin"
+    },
+    {
+      "name": "GitHub",
+      "href": "https://github.com/szidzse",
+      "icon": "github"
+    },
+    {
+      "name": "Email",
+      "href": "mailto:hello@gellertsos.com",
+      "icon": "mail"
+    }
+  ]
+}
