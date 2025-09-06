@@ -1,11 +1,19 @@
 import React from "react";
-import { ArrowDown, ArrowDownRight, FileDown } from "lucide-react";
+import {
+  ArrowDown,
+  ArrowDownRight,
+  ArrowRightIcon,
+  FileDown,
+} from "lucide-react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import Socials from "@/components/Socials";
 import Experience from "@/components/Experience";
+import LinkWithIcon from "@/components/LinkWithIcon";
+import Projects from "@/components/Projects";
 
 const BIRTH_YEAR = 2000;
+const LIMIT = 2;
 
 const Home = () => {
   return (
@@ -48,6 +56,21 @@ const Home = () => {
       </section>
 
       <Experience />
+
+      <section className="flex flex-col gap-8">
+        <div className="flex justify-between">
+          <h2 className="title text-2xl sm:text-3xl">featured projects</h2>
+          <LinkWithIcon
+            href="/projects"
+            position="right"
+            icon={<ArrowRightIcon className="size-5" />}
+            text="view more"
+          />
+        </div>
+        <Projects limit={LIMIT} />
+      </section>
+
+      {/* TODO: create new section for blog posts */}
     </article>
   );
 };

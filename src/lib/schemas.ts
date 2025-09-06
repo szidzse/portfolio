@@ -22,3 +22,14 @@ const experience = z.object({
 export type Experience = z.infer<typeof experience>;
 export const careerSchema = z.object({ career: z.array(experience) });
 export const educationSchema = z.object({ education: z.array(experience) });
+
+const project = z.object({
+  name: z.string(),
+  description: z.string(),
+  href: z.string().url().optional(),
+  image: z.string().optional(),
+  tags: z.array(z.string()),
+  links: z.array(iconLink),
+});
+export const projectSchema = z.object({ projects: z.array(project) });
+export type Project = z.infer<typeof project>;
